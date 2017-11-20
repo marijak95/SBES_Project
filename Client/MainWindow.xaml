@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+       Title="Login" Height="450" Width="400">
     <Grid>
-        
+        <TextBox x:Name="textBox_Username" HorizontalAlignment="Left" Height="26" Margin="116,25,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="235"/>
+        <Label x:Name="u" Content="Username:" HorizontalAlignment="Left" Margin="20,25,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Password:" HorizontalAlignment="Left" Margin="20,78,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox_Password" HorizontalAlignment="Left" Height="26" Margin="116,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="235"/>
+        <Button x:Name="buttonLogIn" Content="Log in" HorizontalAlignment="Left" Margin="260,342,0,0" VerticalAlignment="Top" Width="91" Height="29" RenderTransformOrigin="2.648,0.931"/>
+        <Label x:Name="Question1" Content="" HorizontalAlignment="Left" Margin="38,129,0,0" VerticalAlignment="Top" Width="313"/>
+        <TextBox x:Name="Answer1" Visibility="Hidden" HorizontalAlignment="Left" Height="23" Margin="38,172,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313"/>
+        <Label x:Name="Question2" Content="" HorizontalAlignment="Left" Margin="38,209,0,0" VerticalAlignment="Top" Width="313"/>
+        <TextBox x:Name="Answer2" Visibility="Hidden" HorizontalAlignment="Left" Height="23" Margin="38,250,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313"/>
+        <Label x:Name="labela" Content="New user?" HorizontalAlignment="Left" Margin="38,302,0,0" VerticalAlignment="Top" Width="118"/>
+        <Button x:Name="button_Register" Content="Register" HorizontalAlignment="Left" Margin="38,342,0,0" VerticalAlignment="Top" Width="91" Height="29"/>
+
     </Grid>
 </Window>
